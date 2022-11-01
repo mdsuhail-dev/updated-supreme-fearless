@@ -33,7 +33,7 @@ import logging
 from typing import Optional, Tuple
 
 from datetime import date
-
+from googletrans import Translator
 import telegram
 
 import emoji
@@ -104,9 +104,14 @@ class MyBot():
 		admin_status = bot.get_chat_member(chat_id, user_id)
 		
 		admin_s = admin_status.status
-		
+		translator = Translator()
 		admin_str = "creator", "administrator"
-		
+		if "/translate" in msg:
+			msg = msg.replace("/translate ", "")
+			translated_text = translator. translate(str(msg))
+			translated_text = translated_text.text
+			
+			update.message.reply_text(translated_text)
 		if "/p" in msg:
 			crypto = ""
 			crypto1 = str(msg)
