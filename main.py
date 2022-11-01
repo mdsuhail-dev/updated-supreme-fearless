@@ -61,8 +61,8 @@ class MyBot():
 	mute_list = {}
 	ban_list = {}
 	
-	updater = Updater("5376177894:AAEe07Mvwf4TLGY3Peznid1hJOmiKBGjKfM", use_context=True) 
-	api_key = "5376177894:AAEe07Mvwf4TLGY3Peznid1hJOmiKBGjKfM"
+	updater = Updater("5368274717:AAFmwIxfn5OWgQzEicsfrem4v_eCqFDwCX4", use_context=True) 
+	api_key = "5368274717:AAFmwIxfn5OWgQzEicsfrem4v_eCqFDwCX4"
 
 	bot = telegram.Bot(token=api_key)
 	
@@ -78,7 +78,7 @@ class MyBot():
 		
 
 	def main_bot(update: Update, context: CallbackContext):
-		api_key = '5376177894:AAEe07Mvwf4TLGY3Peznid1hJOmiKBGjKfM'
+		api_key = '5368274717:AAFmwIxfn5OWgQzEicsfrem4v_eCqFDwCX4'
 		
 		now_time = datetime.datetime.now()
 		
@@ -178,7 +178,7 @@ If You Need Any Help Queries Contact Our Admin. """)
 			user_id = user.id
 			chat_id = chat.id
 			
-			api_key = '5376177894:AAEe07Mvwf4TLGY3Peznid1hJOmiKBGjKfM'
+			api_key = '5368274717:AAFmwIxfn5OWgQzEicsfrem4v_eCqFDwCX4'
 		
 				
 			
