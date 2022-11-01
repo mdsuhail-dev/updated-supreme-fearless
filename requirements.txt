@@ -1,6 +1,5 @@
 python-telegram-bot
 emoji
-json
 requests
 random
 telegram
