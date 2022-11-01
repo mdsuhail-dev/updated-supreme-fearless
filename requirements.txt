@@ -1,4 +1,5 @@
 python-telegram-bot
 emoji
+googletrans
 requests
 telegram
